@@ -72,3 +72,5 @@ fi
 
 # To stop homebrew sandboxing
 export HOMEBREW_NO_SANDBOX=1
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
